@@ -18,6 +18,7 @@ PODS:
   - SnapKit (4.2.0)
   - SwipeMenuViewController (3.0.0)
   - TangramKit (1.3.1)
+  - TTTAttributedLabel (2.0.0)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - SnapKit
   - SwipeMenuViewController
   - TangramKit
+  - TTTAttributedLabel
   - YYCategories
 
 SPEC REPOS:
@@ -37,6 +39,7 @@ SPEC REPOS:
     - SnapKit
     - SwipeMenuViewController
     - TangramKit
+    - TTTAttributedLabel
     - YYCategories
 
 SPEC CHECKSUMS:
@@ -45,8 +48,9 @@ SPEC CHECKSUMS:
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwipeMenuViewController: 572a6fcd7fa95c3d744c760d5e836896817c5735
   TangramKit: 1b4ee065845919057bdbe930ba39deecbbff181e
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 7302e696fd08195bde448fa9b7b181691f926e02
+PODFILE CHECKSUM: 8d3795443b0148b52d32527f5e84e470558cc72f
 
 COCOAPODS: 1.5.0
