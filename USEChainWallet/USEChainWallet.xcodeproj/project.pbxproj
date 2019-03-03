@@ -8,14 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		163A2218222B82F300A438DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2217222B82F300A438DA /* AppDelegate.m */; };
-		163A221B222B82F300A438DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A221A222B82F300A438DA /* ViewController.m */; };
-		163A221E222B82F300A438DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163A221C222B82F300A438DA /* Main.storyboard */; };
 		163A2220222B82F400A438DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163A221F222B82F400A438DA /* Assets.xcassets */; };
 		163A2223222B82F400A438DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163A2221222B82F400A438DA /* LaunchScreen.storyboard */; };
 		163A2226222B82F400A438DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2225222B82F400A438DA /* main.m */; };
 		163A2230222B82F400A438DA /* USEChainWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A222F222B82F400A438DA /* USEChainWalletTests.m */; };
 		163A223B222B82F500A438DA /* USEChainWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A223A222B82F500A438DA /* USEChainWalletUITests.m */; };
-		163A224A222B858B00A438DA /* USCNetSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2249222B858B00A438DA /* USCNetSwift.swift */; };
 		163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A224D222B8A4C00A438DA /* NSData+DataFromString.m */; };
 		163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A224F222B8A4C00A438DA /* UILabel+Extension.swift */; };
 		163A2258222B8A4C00A438DA /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2250222B8A4C00A438DA /* UIButton+Extension.swift */; };
@@ -61,9 +58,6 @@
 		163A2213222B82F300A438DA /* USEChainWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USEChainWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163A2216222B82F300A438DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		163A2217222B82F300A438DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		163A2219222B82F300A438DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		163A221A222B82F300A438DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		163A221D222B82F300A438DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		163A221F222B82F400A438DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		163A2222222B82F400A438DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		163A2224222B82F400A438DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +69,6 @@
 		163A223A222B82F500A438DA /* USEChainWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = USEChainWalletUITests.m; sourceTree = "<group>"; };
 		163A223C222B82F500A438DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		163A2248222B858A00A438DA /* USEChainWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USEChainWallet-Bridging-Header.h"; sourceTree = "<group>"; };
-		163A2249222B858B00A438DA /* USCNetSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USCNetSwift.swift; sourceTree = "<group>"; };
 		163A224B222B866300A438DA /* USEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USEPrefixHeader.pch; sourceTree = "<group>"; };
 		163A224D222B8A4C00A438DA /* NSData+DataFromString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DataFromString.m"; sourceTree = "<group>"; };
 		163A224E222B8A4C00A438DA /* NSString+weishuIsZero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+weishuIsZero.h"; sourceTree = "<group>"; };
@@ -166,10 +159,6 @@
 				163A224C222B8A4C00A438DA /* Extensions */,
 				163A2216222B82F300A438DA /* AppDelegate.h */,
 				163A2217222B82F300A438DA /* AppDelegate.m */,
-				163A2219222B82F300A438DA /* ViewController.h */,
-				163A2249222B858B00A438DA /* USCNetSwift.swift */,
-				163A221A222B82F300A438DA /* ViewController.m */,
-				163A221C222B82F300A438DA /* Main.storyboard */,
 				163A221F222B82F400A438DA /* Assets.xcassets */,
 				163A2221222B82F400A438DA /* LaunchScreen.storyboard */,
 				163A2224222B82F400A438DA /* Info.plist */,
@@ -441,7 +430,6 @@
 			files = (
 				163A2223222B82F400A438DA /* LaunchScreen.storyboard in Resources */,
 				163A2220222B82F400A438DA /* Assets.xcassets in Resources */,
-				163A221E222B82F300A438DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +513,6 @@
 				163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */,
 				163A2277222B8B0B00A438DA /* DZICOBaseVC.swift in Sources */,
 				163A2261222B8A9E00A438DA /* UseChainNetSwift.swift in Sources */,
-				163A221B222B82F300A438DA /* ViewController.m in Sources */,
 				163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */,
 				163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */,
 				163A2279222B8B0B00A438DA /* USEWalletMainOldVC.swift in Sources */,
@@ -539,7 +526,6 @@
 				163A227B222B8B0B00A438DA /* USEMineViewController.swift in Sources */,
 				163A2218222B82F300A438DA /* AppDelegate.m in Sources */,
 				163A227F222B8B0B00A438DA /* USEWalletMineCell.swift in Sources */,
-				163A224A222B858B00A438DA /* USCNetSwift.swift in Sources */,
 				163A227A222B8B0B00A438DA /* USEWalletViewController.swift in Sources */,
 				163A2276222B8B0B00A438DA /* USEWalletMainNewVC.swift in Sources */,
 				163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */,
@@ -580,14 +566,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		163A221C222B82F300A438DA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				163A221D222B82F300A438DA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		163A2221222B82F400A438DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -726,7 +704,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = USEChainWallet/USEPrefixHeader.pch;
 				INFOPLIST_FILE = USEChainWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "USEChainWallet/USEChainWallet-Bridging-Header.h";
@@ -751,7 +732,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = USEChainWallet/USEPrefixHeader.pch;
 				INFOPLIST_FILE = USEChainWallet/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWallet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "USEChainWallet/USEChainWallet-Bridging-Header.h";
@@ -768,7 +752,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D7WEE2X67;
 				INFOPLIST_FILE = USEChainWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -784,7 +772,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D7WEE2X67;
 				INFOPLIST_FILE = USEChainWalletTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWalletTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -799,7 +791,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D7WEE2X67;
 				INFOPLIST_FILE = USEChainWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -814,7 +810,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8D7WEE2X67;
 				INFOPLIST_FILE = USEChainWalletUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jacob.com.USEChainWalletUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
