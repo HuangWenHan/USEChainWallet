@@ -34,6 +34,8 @@
 		163A2280222B8B0B00A438DA /* USEWalletAssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2275222B8B0B00A438DA /* USEWalletAssetCell.swift */; };
 		163A2283222B8B5F00A438DA /* UseEthersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2282222B8B5F00A438DA /* UseEthersManager.m */; };
 		163A2286222B8B8600A438DA /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163A2285222B8B8600A438DA /* ethers.framework */; };
+		163A2288222B923800A438DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163A2287222B923800A438DA /* Security.framework */; };
+		163A228B222B930F00A438DA /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A228A222B930E00A438DA /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +98,9 @@
 		163A2281222B8B5F00A438DA /* UseEthersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseEthersManager.h; sourceTree = "<group>"; };
 		163A2282222B8B5F00A438DA /* UseEthersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseEthersManager.m; sourceTree = "<group>"; };
 		163A2285222B8B8600A438DA /* ethers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ethers.framework; sourceTree = "<group>"; };
+		163A2287222B923800A438DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		163A2289222B930E00A438DA /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		163A228A222B930E00A438DA /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 		A14A4B074E2B921D57D26B7F /* Pods-USEChainWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USEChainWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61CC0DE41652A40015681C7 /* Pods-USEChainWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163A2288222B923800A438DA /* Security.framework in Frameworks */,
 				ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */,
 				163A2286222B8B8600A438DA /* ethers.framework in Frameworks */,
 			);
@@ -206,6 +212,8 @@
 		163A225C222B8A9E00A438DA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				163A2289222B930E00A438DA /* KeychainItemWrapper.h */,
+				163A228A222B930E00A438DA /* KeychainItemWrapper.m */,
 				163A225D222B8A9E00A438DA /* UseWalletNetworkTools.m */,
 				163A225E222B8A9E00A438DA /* UseChainNetSwift.swift */,
 				163A225F222B8A9E00A438DA /* UseWalletNetworkTools.h */,
@@ -317,6 +325,7 @@
 		C5F28950A9D9C84DC37EDAED /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				163A2287222B923800A438DA /* Security.framework */,
 				BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */,
 			);
 			name = Frameworks;
@@ -525,6 +534,7 @@
 				163A2280222B8B0B00A438DA /* USEWalletAssetCell.swift in Sources */,
 				163A227B222B8B0B00A438DA /* USEMineViewController.swift in Sources */,
 				163A2218222B82F300A438DA /* AppDelegate.m in Sources */,
+				163A228B222B930F00A438DA /* KeychainItemWrapper.m in Sources */,
 				163A227F222B8B0B00A438DA /* USEWalletMineCell.swift in Sources */,
 				163A227A222B8B0B00A438DA /* USEWalletViewController.swift in Sources */,
 				163A2276222B8B0B00A438DA /* USEWalletMainNewVC.swift in Sources */,
