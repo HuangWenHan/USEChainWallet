@@ -16,6 +16,12 @@
 		163A2230222B82F400A438DA /* USEChainWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A222F222B82F400A438DA /* USEChainWalletTests.m */; };
 		163A223B222B82F500A438DA /* USEChainWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A223A222B82F500A438DA /* USEChainWalletUITests.m */; };
 		163A224A222B858B00A438DA /* USCNetSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2249222B858B00A438DA /* USCNetSwift.swift */; };
+		163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A224D222B8A4C00A438DA /* NSData+DataFromString.m */; };
+		163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A224F222B8A4C00A438DA /* UILabel+Extension.swift */; };
+		163A2258222B8A4C00A438DA /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2250222B8A4C00A438DA /* UIButton+Extension.swift */; };
+		163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2253222B8A4C00A438DA /* NSString+weishuIsZero.m */; };
+		163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2254222B8A4C00A438DA /* NSDate+Extension.swift */; };
+		163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2255222B8A4C00A438DA /* NSString+Size.m */; };
 		ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +62,15 @@
 		163A2248222B858A00A438DA /* USEChainWallet-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "USEChainWallet-Bridging-Header.h"; sourceTree = "<group>"; };
 		163A2249222B858B00A438DA /* USCNetSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USCNetSwift.swift; sourceTree = "<group>"; };
 		163A224B222B866300A438DA /* USEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = USEPrefixHeader.pch; sourceTree = "<group>"; };
+		163A224D222B8A4C00A438DA /* NSData+DataFromString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+DataFromString.m"; sourceTree = "<group>"; };
+		163A224E222B8A4C00A438DA /* NSString+weishuIsZero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+weishuIsZero.h"; sourceTree = "<group>"; };
+		163A224F222B8A4C00A438DA /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		163A2250222B8A4C00A438DA /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		163A2251222B8A4C00A438DA /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		163A2252222B8A4C00A438DA /* NSData+DataFromString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+DataFromString.h"; sourceTree = "<group>"; };
+		163A2253222B8A4C00A438DA /* NSString+weishuIsZero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+weishuIsZero.m"; sourceTree = "<group>"; };
+		163A2254222B8A4C00A438DA /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		163A2255222B8A4C00A438DA /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
 		A14A4B074E2B921D57D26B7F /* Pods-USEChainWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USEChainWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61CC0DE41652A40015681C7 /* Pods-USEChainWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +127,7 @@
 		163A2215222B82F300A438DA /* USEChainWallet */ = {
 			isa = PBXGroup;
 			children = (
+				163A224C222B8A4C00A438DA /* Extensions */,
 				163A2216222B82F300A438DA /* AppDelegate.h */,
 				163A2217222B82F300A438DA /* AppDelegate.m */,
 				163A2219222B82F300A438DA /* ViewController.h */,
@@ -144,6 +160,22 @@
 				163A223C222B82F500A438DA /* Info.plist */,
 			);
 			path = USEChainWalletUITests;
+			sourceTree = "<group>";
+		};
+		163A224C222B8A4C00A438DA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				163A224D222B8A4C00A438DA /* NSData+DataFromString.m */,
+				163A224E222B8A4C00A438DA /* NSString+weishuIsZero.h */,
+				163A224F222B8A4C00A438DA /* UILabel+Extension.swift */,
+				163A2250222B8A4C00A438DA /* UIButton+Extension.swift */,
+				163A2251222B8A4C00A438DA /* NSString+Size.h */,
+				163A2252222B8A4C00A438DA /* NSData+DataFromString.h */,
+				163A2253222B8A4C00A438DA /* NSString+weishuIsZero.m */,
+				163A2254222B8A4C00A438DA /* NSDate+Extension.swift */,
+				163A2255222B8A4C00A438DA /* NSString+Size.m */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B23F542BB76B81A2D20F5227 /* Pods */ = {
@@ -347,10 +379,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */,
 				163A221B222B82F300A438DA /* ViewController.m in Sources */,
+				163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */,
+				163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */,
+				163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */,
 				163A2226222B82F400A438DA /* main.m in Sources */,
 				163A2218222B82F300A438DA /* AppDelegate.m in Sources */,
 				163A224A222B858B00A438DA /* USCNetSwift.swift in Sources */,
+				163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */,
+				163A2258222B8A4C00A438DA /* UIButton+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
