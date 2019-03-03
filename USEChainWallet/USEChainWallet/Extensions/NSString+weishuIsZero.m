@@ -100,25 +100,7 @@
     return NO;
 }
 
-//- (NSString *)convertToDecimalWithSquareNumber:(NSInteger)squareNumber {
-//    if (self.length > 8) { // 添加小数点
-//        NSString *sub1 = [self substringToIndex:self.length - 8];
-//        NSString *sub2 = [self substringFromIndex:self.length - 8];
-//        return [NSString stringWithFormat:@"%@.%@", sub1, sub2];
-//    } else if (self.length < 8) { // 添加小数点并加0
-//        NSString *zero;
-//        for (NSInteger i = 0; i<8 - self.length; i++) {
-//            if (i==0) {
-//                zero = @"0";
-//            } else {
-//                zero = [NSString stringWithFormat:@"%@0", zero];
-//            }
-//        }
-//        return [NSString stringWithFormat:@"0.%@%@", zero, self];
-//    } else { // 在前面加0.
-//        return [NSString stringWithFormat:@"0.%@", self];
-//    }
-//}
+
 
 - (NSString *)convertToDecimalWithSquareNumber2:(NSInteger)squareNumber {
     if (self.length > squareNumber) { // 添加小数点

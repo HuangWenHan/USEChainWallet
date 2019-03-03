@@ -36,6 +36,15 @@
 		163A2286222B8B8600A438DA /* ethers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163A2285222B8B8600A438DA /* ethers.framework */; };
 		163A2288222B923800A438DA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163A2287222B923800A438DA /* Security.framework */; };
 		163A228B222B930F00A438DA /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A228A222B930E00A438DA /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		163A2295222B965B00A438DA /* EaseEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2290222B965B00A438DA /* EaseEmoji.m */; };
+		163A2296222B965B00A438DA /* EaseEmotionEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2291222B965B00A438DA /* EaseEmotionEscape.m */; };
+		163A2297222B965B00A438DA /* EaseEmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2292222B965B00A438DA /* EaseEmojiEmoticons.m */; };
+		163A2298222B965B00A438DA /* EaseEmotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2294222B965B00A438DA /* EaseEmotionManager.m */; };
+		163A22A4222B979400A438DA /* NSString+Valid.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A229A222B979300A438DA /* NSString+Valid.m */; };
+		163A22A5222B979400A438DA /* NSDateFormatter+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A229C222B979400A438DA /* NSDateFormatter+Category.m */; };
+		163A22A6222B979400A438DA /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A229E222B979400A438DA /* UIViewController+HUD.m */; };
+		163A22A7222B979400A438DA /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22A1222B979400A438DA /* UIViewController+DismissKeyboard.m */; };
+		163A22A8222B979400A438DA /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22A3222B979400A438DA /* NSDate+Category.m */; };
 		ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,6 +110,25 @@
 		163A2287222B923800A438DA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		163A2289222B930E00A438DA /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		163A228A222B930E00A438DA /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		163A228D222B965B00A438DA /* EaseEmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmojiEmoticons.h; sourceTree = "<group>"; };
+		163A228E222B965B00A438DA /* EaseEmotionEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionEscape.h; sourceTree = "<group>"; };
+		163A228F222B965B00A438DA /* EaseEmotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmotionManager.h; sourceTree = "<group>"; };
+		163A2290222B965B00A438DA /* EaseEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmoji.m; sourceTree = "<group>"; };
+		163A2291222B965B00A438DA /* EaseEmotionEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionEscape.m; sourceTree = "<group>"; };
+		163A2292222B965B00A438DA /* EaseEmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmojiEmoticons.m; sourceTree = "<group>"; };
+		163A2293222B965B00A438DA /* EaseEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseEmoji.h; sourceTree = "<group>"; };
+		163A2294222B965B00A438DA /* EaseEmotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseEmotionManager.m; sourceTree = "<group>"; };
+		163A229A222B979300A438DA /* NSString+Valid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Valid.m"; sourceTree = "<group>"; };
+		163A229B222B979300A438DA /* NSDate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Category.h"; sourceTree = "<group>"; };
+		163A229C222B979400A438DA /* NSDateFormatter+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Category.m"; sourceTree = "<group>"; };
+		163A229D222B979400A438DA /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		163A229E222B979400A438DA /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		163A229F222B979400A438DA /* UIViewController+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DismissKeyboard.h"; sourceTree = "<group>"; };
+		163A22A0222B979400A438DA /* NSString+Valid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Valid.h"; sourceTree = "<group>"; };
+		163A22A1222B979400A438DA /* UIViewController+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DismissKeyboard.m"; sourceTree = "<group>"; };
+		163A22A2222B979400A438DA /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
+		163A22A3222B979400A438DA /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
+		163A22A9222B97B300A438DA /* EaseLocalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseLocalDefine.h; sourceTree = "<group>"; };
 		A14A4B074E2B921D57D26B7F /* Pods-USEChainWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USEChainWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61CC0DE41652A40015681C7 /* Pods-USEChainWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -196,6 +224,8 @@
 		163A224C222B8A4C00A438DA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				163A2299222B978000A438DA /* Categories */,
+				163A228C222B965B00A438DA /* Emoji */,
 				163A224D222B8A4C00A438DA /* NSData+DataFromString.m */,
 				163A224E222B8A4C00A438DA /* NSString+weishuIsZero.h */,
 				163A224F222B8A4C00A438DA /* UILabel+Extension.swift */,
@@ -311,6 +341,39 @@
 				163A2285222B8B8600A438DA /* ethers.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		163A228C222B965B00A438DA /* Emoji */ = {
+			isa = PBXGroup;
+			children = (
+				163A228D222B965B00A438DA /* EaseEmojiEmoticons.h */,
+				163A228E222B965B00A438DA /* EaseEmotionEscape.h */,
+				163A228F222B965B00A438DA /* EaseEmotionManager.h */,
+				163A2290222B965B00A438DA /* EaseEmoji.m */,
+				163A2291222B965B00A438DA /* EaseEmotionEscape.m */,
+				163A2292222B965B00A438DA /* EaseEmojiEmoticons.m */,
+				163A2293222B965B00A438DA /* EaseEmoji.h */,
+				163A2294222B965B00A438DA /* EaseEmotionManager.m */,
+			);
+			path = Emoji;
+			sourceTree = "<group>";
+		};
+		163A2299222B978000A438DA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				163A22A9222B97B300A438DA /* EaseLocalDefine.h */,
+				163A229B222B979300A438DA /* NSDate+Category.h */,
+				163A22A3222B979400A438DA /* NSDate+Category.m */,
+				163A22A2222B979400A438DA /* NSDateFormatter+Category.h */,
+				163A229C222B979400A438DA /* NSDateFormatter+Category.m */,
+				163A22A0222B979400A438DA /* NSString+Valid.h */,
+				163A229A222B979300A438DA /* NSString+Valid.m */,
+				163A229F222B979400A438DA /* UIViewController+DismissKeyboard.h */,
+				163A22A1222B979400A438DA /* UIViewController+DismissKeyboard.m */,
+				163A229D222B979400A438DA /* UIViewController+HUD.h */,
+				163A229E222B979400A438DA /* UIViewController+HUD.m */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 		B23F542BB76B81A2D20F5227 /* Pods */ = {
@@ -518,18 +581,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163A22A6222B979400A438DA /* UIViewController+HUD.m in Sources */,
 				163A2283222B8B5F00A438DA /* UseEthersManager.m in Sources */,
+				163A2296222B965B00A438DA /* EaseEmotionEscape.m in Sources */,
 				163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */,
 				163A2277222B8B0B00A438DA /* DZICOBaseVC.swift in Sources */,
 				163A2261222B8A9E00A438DA /* UseChainNetSwift.swift in Sources */,
 				163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */,
+				163A22A4222B979400A438DA /* NSString+Valid.m in Sources */,
+				163A2298222B965B00A438DA /* EaseEmotionManager.m in Sources */,
 				163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */,
 				163A2279222B8B0B00A438DA /* USEWalletMainOldVC.swift in Sources */,
 				163A227C222B8B0B00A438DA /* USEDiscoverViewController.swift in Sources */,
+				163A22A7222B979400A438DA /* UIViewController+DismissKeyboard.m in Sources */,
+				163A2295222B965B00A438DA /* EaseEmoji.m in Sources */,
+				163A2297222B965B00A438DA /* EaseEmojiEmoticons.m in Sources */,
 				163A2278222B8B0B00A438DA /* USECoinDetailVC.swift in Sources */,
 				163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */,
+				163A22A5222B979400A438DA /* NSDateFormatter+Category.m in Sources */,
 				163A227D222B8B0B00A438DA /* DZWalletBaseVC.swift in Sources */,
 				163A2226222B82F400A438DA /* main.m in Sources */,
+				163A22A8222B979400A438DA /* NSDate+Category.m in Sources */,
 				163A2260222B8A9E00A438DA /* UseWalletNetworkTools.m in Sources */,
 				163A2280222B8B0B00A438DA /* USEWalletAssetCell.swift in Sources */,
 				163A227B222B8B0B00A438DA /* USEMineViewController.swift in Sources */,
