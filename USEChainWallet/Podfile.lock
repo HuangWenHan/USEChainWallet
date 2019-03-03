@@ -16,6 +16,8 @@ PODS:
     - AFNetworking/NSURLSession
   - MBProgressHUD (0.9.2)
   - SnapKit (4.2.0)
+  - SwipeMenuViewController (3.0.0)
+  - TangramKit (1.3.1)
   - YYCategories (1.0.4):
     - YYCategories/no-arc (= 1.0.4)
   - YYCategories/no-arc (1.0.4)
@@ -24,6 +26,8 @@ DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - MBProgressHUD (~> 0.9.1)
   - SnapKit
+  - SwipeMenuViewController
+  - TangramKit
   - YYCategories
 
 SPEC REPOS:
@@ -31,14 +35,18 @@ SPEC REPOS:
     - AFNetworking
     - MBProgressHUD
     - SnapKit
+    - SwipeMenuViewController
+    - TangramKit
     - YYCategories
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwipeMenuViewController: 572a6fcd7fa95c3d744c760d5e836896817c5735
+  TangramKit: 1b4ee065845919057bdbe930ba39deecbbff181e
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: d657fd1b8c5779d2d00d0081e6b6baa000327739
+PODFILE CHECKSUM: 7302e696fd08195bde448fa9b7b181691f926e02
 
 COCOAPODS: 1.5.0
