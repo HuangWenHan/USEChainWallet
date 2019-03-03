@@ -22,6 +22,8 @@
 		163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2253222B8A4C00A438DA /* NSString+weishuIsZero.m */; };
 		163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A2254222B8A4C00A438DA /* NSDate+Extension.swift */; };
 		163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A2255222B8A4C00A438DA /* NSString+Size.m */; };
+		163A2260222B8A9E00A438DA /* UseWalletNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A225D222B8A9E00A438DA /* UseWalletNetworkTools.m */; };
+		163A2261222B8A9E00A438DA /* UseChainNetSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A225E222B8A9E00A438DA /* UseChainNetSwift.swift */; };
 		ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +73,9 @@
 		163A2253222B8A4C00A438DA /* NSString+weishuIsZero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+weishuIsZero.m"; sourceTree = "<group>"; };
 		163A2254222B8A4C00A438DA /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
 		163A2255222B8A4C00A438DA /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		163A225D222B8A9E00A438DA /* UseWalletNetworkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UseWalletNetworkTools.m; sourceTree = "<group>"; };
+		163A225E222B8A9E00A438DA /* UseChainNetSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UseChainNetSwift.swift; sourceTree = "<group>"; };
+		163A225F222B8A9E00A438DA /* UseWalletNetworkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UseWalletNetworkTools.h; sourceTree = "<group>"; };
 		A14A4B074E2B921D57D26B7F /* Pods-USEChainWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USEChainWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61CC0DE41652A40015681C7 /* Pods-USEChainWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -127,6 +132,7 @@
 		163A2215222B82F300A438DA /* USEChainWallet */ = {
 			isa = PBXGroup;
 			children = (
+				163A225C222B8A9E00A438DA /* Tools */,
 				163A224C222B8A4C00A438DA /* Extensions */,
 				163A2216222B82F300A438DA /* AppDelegate.h */,
 				163A2217222B82F300A438DA /* AppDelegate.m */,
@@ -176,6 +182,16 @@
 				163A2255222B8A4C00A438DA /* NSString+Size.m */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		163A225C222B8A9E00A438DA /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				163A225D222B8A9E00A438DA /* UseWalletNetworkTools.m */,
+				163A225E222B8A9E00A438DA /* UseChainNetSwift.swift */,
+				163A225F222B8A9E00A438DA /* UseWalletNetworkTools.h */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 		B23F542BB76B81A2D20F5227 /* Pods */ = {
@@ -380,11 +396,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */,
+				163A2261222B8A9E00A438DA /* UseChainNetSwift.swift in Sources */,
 				163A221B222B82F300A438DA /* ViewController.m in Sources */,
 				163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */,
 				163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */,
 				163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */,
 				163A2226222B82F400A438DA /* main.m in Sources */,
+				163A2260222B8A9E00A438DA /* UseWalletNetworkTools.m in Sources */,
 				163A2218222B82F300A438DA /* AppDelegate.m in Sources */,
 				163A224A222B858B00A438DA /* USCNetSwift.swift in Sources */,
 				163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */,
