@@ -45,6 +45,27 @@
 		163A22A6222B979400A438DA /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A229E222B979400A438DA /* UIViewController+HUD.m */; };
 		163A22A7222B979400A438DA /* UIViewController+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22A1222B979400A438DA /* UIViewController+DismissKeyboard.m */; };
 		163A22A8222B979400A438DA /* NSDate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22A3222B979400A438DA /* NSDate+Category.m */; };
+		163A22BF222B9FEF00A438DA /* DZUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22B7222B9FEF00A438DA /* DZUserInfo.swift */; };
+		163A22C0222B9FEF00A438DA /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22B8222B9FEF00A438DA /* Protocol.swift */; };
+		163A22C1222B9FEF00A438DA /* UserDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22B9222B9FEF00A438DA /* UserDatas.swift */; };
+		163A22C2222B9FEF00A438DA /* DZUserCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22BA222B9FEF00A438DA /* DZUserCommon.swift */; };
+		163A22C3222B9FEF00A438DA /* TableParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22BB222B9FEF00A438DA /* TableParameters.swift */; };
+		163A22C4222B9FEF00A438DA /* corprateBankDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22BC222B9FEF00A438DA /* corprateBankDatas.swift */; };
+		163A22C6222B9FEF00A438DA /* SystemUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22BE222B9FEF00A438DA /* SystemUtils.swift */; };
+		163A22E2222BA35800A438DA /* Application+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22CE222BA35500A438DA /* Application+Extensions.swift */; };
+		163A22E3222BA35800A438DA /* ValidatedPutIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22CF222BA35500A438DA /* ValidatedPutIn.swift */; };
+		163A22E4222BA35800A438DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D0222BA35500A438DA /* ViewController.swift */; };
+		163A22E5222BA35800A438DA /* JTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D2222BA35500A438DA /* JTNavigationController.m */; };
+		163A22E6222BA35800A438DA /* imageObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D4222BA35600A438DA /* imageObjects.m */; };
+		163A22E7222BA35800A438DA /* basePassWordTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D5222BA35600A438DA /* basePassWordTF.swift */; };
+		163A22E8222BA35800A438DA /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D7222BA35600A438DA /* YYFPSLabel.m */; };
+		163A22E9222BA35800A438DA /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22D8222BA35600A438DA /* String+Extension.swift */; };
+		163A22EA222BA35800A438DA /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22DB222BA35700A438DA /* Example.swift */; };
+		163A22EB222BA35800A438DA /* UIViewController+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22DC222BA35700A438DA /* UIViewController+Utils.m */; };
+		163A22EC222BA35800A438DA /* UIImageView+Gray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22DD222BA35700A438DA /* UIImageView+Gray.swift */; };
+		163A22ED222BA35800A438DA /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163A22DE222BA35700A438DA /* UIViewController+Utils.swift */; };
+		163A22EE222BA35800A438DA /* EncryptionTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22DF222BA35700A438DA /* EncryptionTools.m */; };
+		163A22EF222BA35800A438DA /* UIViewController+JTNavigationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 163A22E1222BA35800A438DA /* UIViewController+JTNavigationExtension.m */; };
 		ADF5BD8E8D5682F2E9702E0C /* Pods_USEChainWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +150,33 @@
 		163A22A2222B979400A438DA /* NSDateFormatter+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Category.h"; sourceTree = "<group>"; };
 		163A22A3222B979400A438DA /* NSDate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Category.m"; sourceTree = "<group>"; };
 		163A22A9222B97B300A438DA /* EaseLocalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseLocalDefine.h; sourceTree = "<group>"; };
+		163A22B7222B9FEF00A438DA /* DZUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZUserInfo.swift; sourceTree = "<group>"; };
+		163A22B8222B9FEF00A438DA /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		163A22B9222B9FEF00A438DA /* UserDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDatas.swift; sourceTree = "<group>"; };
+		163A22BA222B9FEF00A438DA /* DZUserCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZUserCommon.swift; sourceTree = "<group>"; };
+		163A22BB222B9FEF00A438DA /* TableParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableParameters.swift; sourceTree = "<group>"; };
+		163A22BC222B9FEF00A438DA /* corprateBankDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = corprateBankDatas.swift; sourceTree = "<group>"; };
+		163A22BE222B9FEF00A438DA /* SystemUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemUtils.swift; sourceTree = "<group>"; };
+		163A22CE222BA35500A438DA /* Application+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Application+Extensions.swift"; sourceTree = "<group>"; };
+		163A22CF222BA35500A438DA /* ValidatedPutIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatedPutIn.swift; sourceTree = "<group>"; };
+		163A22D0222BA35500A438DA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		163A22D1222BA35500A438DA /* UIViewController+JTNavigationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTNavigationExtension.h"; sourceTree = "<group>"; };
+		163A22D2222BA35500A438DA /* JTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNavigationController.m; sourceTree = "<group>"; };
+		163A22D3222BA35500A438DA /* EncryptionTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionTools.h; sourceTree = "<group>"; };
+		163A22D4222BA35600A438DA /* imageObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageObjects.m; sourceTree = "<group>"; };
+		163A22D5222BA35600A438DA /* basePassWordTF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = basePassWordTF.swift; sourceTree = "<group>"; };
+		163A22D6222BA35600A438DA /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		163A22D7222BA35600A438DA /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		163A22D8222BA35600A438DA /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		163A22D9222BA35600A438DA /* UIViewController+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utils.h"; sourceTree = "<group>"; };
+		163A22DA222BA35700A438DA /* imageObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageObjects.h; sourceTree = "<group>"; };
+		163A22DB222BA35700A438DA /* Example.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
+		163A22DC222BA35700A438DA /* UIViewController+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utils.m"; sourceTree = "<group>"; };
+		163A22DD222BA35700A438DA /* UIImageView+Gray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Gray.swift"; sourceTree = "<group>"; };
+		163A22DE222BA35700A438DA /* UIViewController+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		163A22DF222BA35700A438DA /* EncryptionTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionTools.m; sourceTree = "<group>"; };
+		163A22E0222BA35800A438DA /* JTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNavigationController.h; sourceTree = "<group>"; };
+		163A22E1222BA35800A438DA /* UIViewController+JTNavigationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTNavigationExtension.m"; sourceTree = "<group>"; };
 		A14A4B074E2B921D57D26B7F /* Pods-USEChainWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.release.xcconfig"; sourceTree = "<group>"; };
 		BD750E48E506D280DC1AD70D /* Pods_USEChainWallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USEChainWallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F61CC0DE41652A40015681C7 /* Pods-USEChainWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USEChainWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +235,7 @@
 		163A2215222B82F300A438DA /* USEChainWallet */ = {
 			isa = PBXGroup;
 			children = (
+				163A22B6222B9FEF00A438DA /* Common */,
 				163A2284222B8B7400A438DA /* Frameworks */,
 				163A2262222B8B0B00A438DA /* Classes */,
 				163A225C222B8A9E00A438DA /* Tools */,
@@ -242,6 +291,7 @@
 		163A225C222B8A9E00A438DA /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				163A22CD222BA34500A438DA /* OtherTools */,
 				163A2289222B930E00A438DA /* KeychainItemWrapper.h */,
 				163A228A222B930E00A438DA /* KeychainItemWrapper.m */,
 				163A225D222B8A9E00A438DA /* UseWalletNetworkTools.m */,
@@ -281,11 +331,11 @@
 		163A2265222B8B0B00A438DA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				163A2266222B8B0B00A438DA /* MainNew */,
 				163A2268222B8B0B00A438DA /* DZICOBaseVC.swift */,
 				163A2269222B8B0B00A438DA /* USECoinDetailVC.swift */,
-				163A226A222B8B0B00A438DA /* MainOld */,
 				163A226F222B8B0B00A438DA /* DZWalletBaseVC.swift */,
+				163A2266222B8B0B00A438DA /* MainNew */,
+				163A226A222B8B0B00A438DA /* MainOld */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -374,6 +424,47 @@
 				163A229E222B979400A438DA /* UIViewController+HUD.m */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		163A22B6222B9FEF00A438DA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				163A22B7222B9FEF00A438DA /* DZUserInfo.swift */,
+				163A22B8222B9FEF00A438DA /* Protocol.swift */,
+				163A22B9222B9FEF00A438DA /* UserDatas.swift */,
+				163A22BA222B9FEF00A438DA /* DZUserCommon.swift */,
+				163A22BB222B9FEF00A438DA /* TableParameters.swift */,
+				163A22BC222B9FEF00A438DA /* corprateBankDatas.swift */,
+				163A22BE222B9FEF00A438DA /* SystemUtils.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		163A22CD222BA34500A438DA /* OtherTools */ = {
+			isa = PBXGroup;
+			children = (
+				163A22CE222BA35500A438DA /* Application+Extensions.swift */,
+				163A22D5222BA35600A438DA /* basePassWordTF.swift */,
+				163A22D3222BA35500A438DA /* EncryptionTools.h */,
+				163A22DF222BA35700A438DA /* EncryptionTools.m */,
+				163A22DB222BA35700A438DA /* Example.swift */,
+				163A22DA222BA35700A438DA /* imageObjects.h */,
+				163A22D4222BA35600A438DA /* imageObjects.m */,
+				163A22E0222BA35800A438DA /* JTNavigationController.h */,
+				163A22D2222BA35500A438DA /* JTNavigationController.m */,
+				163A22D8222BA35600A438DA /* String+Extension.swift */,
+				163A22DD222BA35700A438DA /* UIImageView+Gray.swift */,
+				163A22D1222BA35500A438DA /* UIViewController+JTNavigationExtension.h */,
+				163A22E1222BA35800A438DA /* UIViewController+JTNavigationExtension.m */,
+				163A22D9222BA35600A438DA /* UIViewController+Utils.h */,
+				163A22DC222BA35700A438DA /* UIViewController+Utils.m */,
+				163A22DE222BA35700A438DA /* UIViewController+Utils.swift */,
+				163A22CF222BA35500A438DA /* ValidatedPutIn.swift */,
+				163A22D0222BA35500A438DA /* ViewController.swift */,
+				163A22D6222BA35600A438DA /* YYFPSLabel.h */,
+				163A22D7222BA35600A438DA /* YYFPSLabel.m */,
+			);
+			path = OtherTools;
 			sourceTree = "<group>";
 		};
 		B23F542BB76B81A2D20F5227 /* Pods */ = {
@@ -548,9 +639,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-USEChainWallet/Pods-USEChainWallet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Presentr/Presentr.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SwipeMenuViewController/SwipeMenuViewController.framework",
 				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
@@ -560,9 +656,14 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Presentr.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeMenuViewController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
@@ -584,18 +685,31 @@
 				163A22A6222B979400A438DA /* UIViewController+HUD.m in Sources */,
 				163A2283222B8B5F00A438DA /* UseEthersManager.m in Sources */,
 				163A2296222B965B00A438DA /* EaseEmotionEscape.m in Sources */,
+				163A22C2222B9FEF00A438DA /* DZUserCommon.swift in Sources */,
+				163A22E4222BA35800A438DA /* ViewController.swift in Sources */,
+				163A22EE222BA35800A438DA /* EncryptionTools.m in Sources */,
 				163A2256222B8A4C00A438DA /* NSData+DataFromString.m in Sources */,
 				163A2277222B8B0B00A438DA /* DZICOBaseVC.swift in Sources */,
+				163A22C6222B9FEF00A438DA /* SystemUtils.swift in Sources */,
 				163A2261222B8A9E00A438DA /* UseChainNetSwift.swift in Sources */,
 				163A2257222B8A4C00A438DA /* UILabel+Extension.swift in Sources */,
+				163A22E5222BA35800A438DA /* JTNavigationController.m in Sources */,
 				163A22A4222B979400A438DA /* NSString+Valid.m in Sources */,
+				163A22C0222B9FEF00A438DA /* Protocol.swift in Sources */,
+				163A22E7222BA35800A438DA /* basePassWordTF.swift in Sources */,
+				163A22E3222BA35800A438DA /* ValidatedPutIn.swift in Sources */,
+				163A22EF222BA35800A438DA /* UIViewController+JTNavigationExtension.m in Sources */,
 				163A2298222B965B00A438DA /* EaseEmotionManager.m in Sources */,
+				163A22BF222B9FEF00A438DA /* DZUserInfo.swift in Sources */,
 				163A225A222B8A4C00A438DA /* NSDate+Extension.swift in Sources */,
 				163A2279222B8B0B00A438DA /* USEWalletMainOldVC.swift in Sources */,
 				163A227C222B8B0B00A438DA /* USEDiscoverViewController.swift in Sources */,
 				163A22A7222B979400A438DA /* UIViewController+DismissKeyboard.m in Sources */,
 				163A2295222B965B00A438DA /* EaseEmoji.m in Sources */,
+				163A22ED222BA35800A438DA /* UIViewController+Utils.swift in Sources */,
+				163A22E2222BA35800A438DA /* Application+Extensions.swift in Sources */,
 				163A2297222B965B00A438DA /* EaseEmojiEmoticons.m in Sources */,
+				163A22C1222B9FEF00A438DA /* UserDatas.swift in Sources */,
 				163A2278222B8B0B00A438DA /* USECoinDetailVC.swift in Sources */,
 				163A225B222B8A4C00A438DA /* NSString+Size.m in Sources */,
 				163A22A5222B979400A438DA /* NSDateFormatter+Category.m in Sources */,
@@ -603,15 +717,23 @@
 				163A2226222B82F400A438DA /* main.m in Sources */,
 				163A22A8222B979400A438DA /* NSDate+Category.m in Sources */,
 				163A2260222B8A9E00A438DA /* UseWalletNetworkTools.m in Sources */,
+				163A22E6222BA35800A438DA /* imageObjects.m in Sources */,
 				163A2280222B8B0B00A438DA /* USEWalletAssetCell.swift in Sources */,
 				163A227B222B8B0B00A438DA /* USEMineViewController.swift in Sources */,
+				163A22EA222BA35800A438DA /* Example.swift in Sources */,
 				163A2218222B82F300A438DA /* AppDelegate.m in Sources */,
 				163A228B222B930F00A438DA /* KeychainItemWrapper.m in Sources */,
+				163A22EC222BA35800A438DA /* UIImageView+Gray.swift in Sources */,
 				163A227F222B8B0B00A438DA /* USEWalletMineCell.swift in Sources */,
 				163A227A222B8B0B00A438DA /* USEWalletViewController.swift in Sources */,
 				163A2276222B8B0B00A438DA /* USEWalletMainNewVC.swift in Sources */,
+				163A22E9222BA35800A438DA /* String+Extension.swift in Sources */,
+				163A22E8222BA35800A438DA /* YYFPSLabel.m in Sources */,
+				163A22C4222B9FEF00A438DA /* corprateBankDatas.swift in Sources */,
 				163A2259222B8A4C00A438DA /* NSString+weishuIsZero.m in Sources */,
+				163A22EB222BA35800A438DA /* UIViewController+Utils.m in Sources */,
 				163A2258222B8A4C00A438DA /* UIButton+Extension.swift in Sources */,
+				163A22C3222B9FEF00A438DA /* TableParameters.swift in Sources */,
 				163A227E222B8B0B00A438DA /* USEWalletTxRecordCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

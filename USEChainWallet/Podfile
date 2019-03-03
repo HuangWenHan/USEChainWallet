@@ -15,4 +15,9 @@ pod 'MJExtension'
 pod 'SwipeMenuViewController'
 pod 'TangramKit'
 
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'Presentr'
+pod 'HandyJSON'
+
 end
