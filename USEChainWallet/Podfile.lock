@@ -15,6 +15,8 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.15.1)
+  - MJRefresh (3.1.15.7)
   - SnapKit (4.2.0)
   - SwipeMenuViewController (3.0.0)
   - TangramKit (1.3.1)
@@ -26,6 +28,8 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
   - MBProgressHUD (~> 0.9.1)
+  - MJExtension
+  - MJRefresh
   - SnapKit
   - SwipeMenuViewController
   - TangramKit
@@ -36,6 +40,8 @@ SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - MBProgressHUD
+    - MJExtension
+    - MJRefresh
     - SnapKit
     - SwipeMenuViewController
     - TangramKit
@@ -45,12 +51,14 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
   SwipeMenuViewController: 572a6fcd7fa95c3d744c760d5e836896817c5735
   TangramKit: 1b4ee065845919057bdbe930ba39deecbbff181e
   TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
   YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: 8d3795443b0148b52d32527f5e84e470558cc72f
+PODFILE CHECKSUM: e9d4cec859ef8a4fe163b91fcb3c7de45cc08b46
 
 COCOAPODS: 1.5.0
