@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "USEChainWallet-Swift.h"
+#import "UseEthersManager.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,16 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    //USEWalletMainOldVC
+    // self.window.rootViewController = [[USEWalletMainNewVC alloc]init];
+    //         self.window.rootViewController = [[USEWalletMainOldVC alloc]init];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[USEWalletMainOldVC alloc]init]];
+    [self.window makeKeyAndVisible];
+    [UseChainNetSwift getCurrentBlockNumWithResource:^(id result, NSError * error) {
+        NSLog(@"%@", result);
+    }];
     return YES;
 }
 
